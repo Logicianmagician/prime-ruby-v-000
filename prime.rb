@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
-  number.any? {|x| x % 2 == 0}
-    true
+  if number < 0 || number == 0 || number == 1
+    return false
   else
     false
   end
